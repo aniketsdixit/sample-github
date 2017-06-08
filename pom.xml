@@ -214,8 +214,12 @@
 <distributionManagement>
   <repository>
     <id>mavenwebapp</id>
-    <url>http://localhost:8081/nexus/content/repositories/mavenwebapp</url>
+    <url>http://localhost:8082/nexus/content/repositories/mavenwebapp</url>
   </repository>
+	<repository>
+		<id>Nexus_Sample_Deploy</id>
+		<url>http://localhost:8082/nexus/content/repositories/Nexus_Sample_Deploy</url>
+	</repository>
 	
 </distributionManagement>
 
